@@ -46,6 +46,24 @@ class CDRCWorker(WebWorker):
     def __init__(self):
         super(CDRCWorker, self).__init__()
 
+    def Work(self):
+        self.downloadCatalogue()
+        self.parseCatalogue()
+        self.downloadEvents()
+        self.parseEvents()
+
+    def downloadCatalogue(self):
+        pass
+
+    def parseCatalogue(self):
+        pass
+
+    def downloadEvents(self):
+        pass
+
+    def parseEvents(self):
+        pass
+
 class ODPLWorker(WebWorker):
     """worker to grab the ODPL info, process it, and output it"""
     def __init__(self):
