@@ -7,6 +7,9 @@ class Worker():
     def __init__(self):
         pass
 
+    def Work(self):
+        pass
+
 class WebWorker(Worker):
     """a worker augmented with handy functions for web stuff"""
     def __init__(self):
