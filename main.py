@@ -1,16 +1,7 @@
 ## Imports
 from CDRCWorker import CDRCWorker
 
-## Classes
-# Worker
-
-
-
-
-
-
-# w = Worker()
-# w.work()
+## Main
 c = CDRCWorker()
-print('split')
+c.initialChecks()
 c.work()
