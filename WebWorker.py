@@ -1,5 +1,6 @@
 ## Import
 from Worker import Worker
+import requests
 
 class WebWorker(Worker):
     """a worker augmented with handy functions for web stuff"""
